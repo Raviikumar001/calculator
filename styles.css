@@ -1,6 +1,16 @@
-.container {
-  box-shadow: 0 4px 8px solid 0 rgba(0, 0, 0, 0.4);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+
+
+body{
+    background-color: #eaeaf1;
+    font-family: 'Raleway',sans-serif;
+}
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+
+  margin-top: 20vh;
 }
