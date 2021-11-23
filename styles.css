@@ -14,3 +14,40 @@ body{
 
   margin-top: 20vh;
 }
+
+.card{
+
+  background-color: white;
+  border: 2px solid #bacdd8;
+
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.name{
+  margin: 5px auto;
+  max-width: 50%;
+  background-color: #EAEAEA;
+  border: 1px solid #bacdd8;
+
+  padding: 1px;
+  border-radius: 12px;
+}
+.name > h2{
+  text-align: center;
+}
+
+label{
+  display: block;
+
+}
+
+
+.input{
+   line-height: 20px;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.25rem 0.5em;
+  background-color: #fff;
+  border-radius: 12px;
+}
