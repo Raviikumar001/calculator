@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
 
   margin-top: 20vh;
@@ -38,16 +38,28 @@ body{
 }
 
 label{
-  display: block;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+
 
 }
 
 
-.input{
-   line-height: 20px;
-  font-size: 1rem;
-  font-family: inherit;
-  padding: 0.25rem 0.5em;
-  background-color: #fff;
-  border-radius: 12px;
+input{
+display: inline-block;
+  width: 70%;
+  padding: 12px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius:4px;
+  box-sizing: border-box;
+  resize: vertical;
+
+}
+
+#outer button{
+  margin: 10px 15px;
+  display:inline-block;
+  
+  width: 100px;
 }
