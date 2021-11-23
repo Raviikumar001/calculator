@@ -63,3 +63,7 @@ display: inline-block;
   
   width: 100px;
 }
+
+.result{
+  text-align: center;
+}
